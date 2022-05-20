@@ -74,13 +74,13 @@
         <li class="nav-item ">
         &nbsp;&nbsp;
           <?php 
-              if (isset($_SESSION['name'])) { ?>
+              if (isset($_SESSION['username'])) { ?>
 
               <ul class="nav nav-pills">
               <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color:#0d6efd">
               <?php 
-              if(isset($_SESSION['name'])) {
+              if(isset($_SESSION['username'])) {
                   echo $_SESSION['fullname'];
               }else {
                   echo "";
