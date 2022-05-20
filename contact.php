@@ -72,7 +72,7 @@
         </li>
         
         <li class="nav-item ">
-        &nbsp;&nbsp;
+        
           <?php 
               if (isset($_SESSION['name'])) { ?>
 
