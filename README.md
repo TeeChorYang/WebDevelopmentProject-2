@@ -2,7 +2,7 @@
 #Web Development #University Assignment #Diploma Level
 
 In this assignment, students need to selece one of four system categories. And we have selected Club and Society Management System. 
-Students need to utilise what they have previously learned to provide the analysis, design model and a functioning system.
+Students need to utilise what they have previously learned, so that they can provide the analysis, design model and develop a functioning system.
 
 By using HTML, JavaScript, CSS, PHP, SQL, together with the XAMPP to accomplish this Assignment.
 
