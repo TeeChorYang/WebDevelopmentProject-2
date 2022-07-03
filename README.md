@@ -1,4 +1,4 @@
-# RADIANT-Club-Soicety
+# RADIANT Club & Soicety
 
 Account-
 Committee(CID 10):
