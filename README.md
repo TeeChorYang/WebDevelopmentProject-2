@@ -23,8 +23,8 @@ Username- Wong Yew Wei
 Password- 123  
 
 Student With Club(CID 10):
-Username- Loh Jun Kit  
-Password- 123  
+**Username- Loh Jun Kit ** 
+**Password- 123  **
 
 Student Without Club:
 Username- Lee Zi Jia  
