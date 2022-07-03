@@ -92,8 +92,7 @@
                         <input type="text" name="username" class="form-control" readonly placeholder="" value="<?= $row["username"]?>" >
                     </div>
                     <div class="col-md-6">  
-                        <label class="labels">Password</label>
-                        <input type="text" name="password" class="form-control" readonly placeholder="" value="<?= $row["password"]?>" >
+                        <label class="labels"></label>
                     </div>
                     <div class="col-md-6">
                         <label class="labels">First Name</label>

@@ -148,7 +148,7 @@
         $result =mysqli_query($conn,"SELECT * from students");
             echo "<table border='1' class='table table-dark w-100  text-center'>
             <tr>
-                <th>Total Student</th>
+                <th>Total of Users</th>
             </tr>";
             $row=mysqli_num_rows($result);
                 echo "<tr>";
@@ -157,49 +157,33 @@
             echo "</table>";
       ?>
       </div>
-
       <div class="table-responsive col-md-2">
       <?php       
-        $result =mysqli_query($conn,"SELECT COUNT(*) FROM `students` WHERE `clubid` IS NOT NULL");
+        $result =mysqli_query($conn,"SELECT * from clubs");
             echo "<table border='1' class='table table-dark w-100 text-center'>
             <tr>
-                <th>Student With Club</th>
-            </tr>";
-            $row=mysqli_fetch_row($result);
-                echo "<tr>";
-                echo "<td>" . $row[0] . "</td>";
-                echo "</tr>";
-            echo "</table>";
-      ?>
-      </div>
-
-      <div class="table-responsive col-md-2">
-      <?php       
-        $result =mysqli_query($conn,"SELECT COUNT(*) FROM `students` WHERE `clubid` IS NULL");
-            echo "<table border='1' class='table table-dark w-100 text-center'>
-            <tr>
-                <th>Student Without Club</th>
-            </tr>";
-            $row=mysqli_fetch_row($result);
-                echo "<tr>";
-                echo "<td>" . $row[0] . "</td>";
-                echo "</tr>";
-            echo "</table>";
-      ?>
-      </div>
-
-      <div class="table-responsive col-md-2"> <!-- todo-->
-      <?php       
-        $result =mysqli_query($conn,"SELECT * from applyjoinclub");
-            echo "<table border='1' class='table table-dark w-100 text-center'>
-            <tr>
-                <th>Club Pending Request</th>
+                <th>Total of Clubs</th>
             </tr>";
             $row=mysqli_num_rows($result);
                 echo "<tr>";
                 echo "<td>" . $row . "</td>";
                 echo "</tr>";
             echo "</table>";
+      ?>
+      </div>
+      <div class="table-responsive col-md-2">
+      <?php       
+        $result =mysqli_query($conn,"SELECT * from message");
+            echo "<table border='1' class='table table-dark w-100 text-center'>
+            <tr>
+                <th>Total Feedbacks</th>
+            </tr>";
+            $row=mysqli_num_rows($result);
+                echo "<tr>";
+                echo "<td>" . $row . "</td>";
+                echo "</tr>";
+            echo "</table>";
+            
       ?>
       </div>
     </div>
@@ -208,25 +192,10 @@
     <div class =row>
       <div class="table-responsive col-md-2">
       <?php       
-        $result =mysqli_query($conn,"SELECT * from clubs");
-            echo "<table border='1' class='table table-dark w-100 text-center'>
-            <tr>
-                <th>Total Club</th>
-            </tr>";
-            $row=mysqli_num_rows($result);
-                echo "<tr>";
-                echo "<td>" . $row . "</td>";
-                echo "</tr>";
-            echo "</table>";
-      ?>
-      </div>
-
-      <div class="table-responsive col-md-2">
-      <?php       
         $result =mysqli_query($conn,"SELECT * from events");
             echo "<table border='1' class='table table-dark w-100 text-center'>
             <tr>
-                <th>Total Ongoing Event</th>
+                <th>Total Ongoing Events</th>
             </tr>";
             $row=mysqli_num_rows($result);
                 echo "<tr>";
@@ -238,25 +207,10 @@
 
       <div class="table-responsive col-md-2">
       <?php       
-        $result =mysqli_query($conn,"SELECT * from events");
+        $result =mysqli_query($conn,"SELECT * from applyevent");
             echo "<table border='1' class='table table-dark w-100 text-center'>
             <tr>
-                <th>Total Annoucement</th>
-            </tr>";
-            $row=mysqli_num_rows($result);
-                echo "<tr>";
-                echo "<td>" . $row . "</td>";
-                echo "</tr>";
-            echo "</table>";
-      ?>
-      </div>
-
-      <div class="table-responsive col-md-2">
-      <?php       
-        $result =mysqli_query($conn,"SELECT * from message");
-            echo "<table border='1' class='table table-dark w-100 text-center'>
-            <tr>
-                <th>Total Feedback</th>
+                <th>Total Pending Events</th>
             </tr>";
             $row=mysqli_num_rows($result);
                 echo "<tr>";

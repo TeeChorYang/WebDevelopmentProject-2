@@ -178,7 +178,7 @@
         <div class="col p-4 d-flex flex-column position-static text-center" style="font-family: Koulen,san-serif;">
           <h1 class="mb-0" style=" font-size: 6rem">RADIANT Club & Society</h1>
           <br>
-          <p class="card-text mb-auto" style="font-size: 1rem">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          
           <br>
           <button onclick="location.href='about.php'" type="button" class="btn btn-outline-warning mx-auto" style="font-weight: bold; width:200px;">Learn More</button>
         </div>
