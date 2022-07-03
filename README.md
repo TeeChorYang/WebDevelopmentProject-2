@@ -1,9 +1,8 @@
 # RADIANT Club & Soicety
 #Web Development #University Assignment #Diploma Level
 
-This assignments is based on four different system categories, students are required to select one of them and develop an appropriate web application to resolving it. For the scenarios that we selected is to solve the problems of
-
-In this assignment, students are required to provide the analysis, design model and functioning system. Students need to utilize what was learned before, to build a system.
+In this assignment, students need to selece one of four system categories. And we have selected Club and Society Management System. 
+Students need to utilise what they have previously learned to provide the analysis, design model and a functioning system.
 
 By using HTML, JavaScript, CSS, PHP, SQL, together with the XAMPP to accomplish this Assignment.
 
