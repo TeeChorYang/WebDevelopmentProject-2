@@ -1,4 +1,10 @@
 # RADIANT Club & Soicety
+#Web Development #University Assignment #Diploma Level
+
+
+By using HTML, JavaScript, CSS, PHP, SQL, together with the XAMPP to accomplish this Assignment.
+
+Database(sdp.sql) is provided in 'Others' folders.
 
 Account-
 Committee(CID 10):
