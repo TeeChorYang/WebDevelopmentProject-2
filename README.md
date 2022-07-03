@@ -11,26 +11,26 @@ Code Written By: Tee Chor Yang (tp061339@mail.apu.edu.my), Lee Jia Qian (tp06186
 Account-
 
 Committee(CID 10):
-Tee Chor Yang
-123
+Username- Tee Chor Yang  
+Password- 123  
 
 Committee(CID 8):
-Lee Jia Qian
-123
+Username- Lee Jia Qian  
+Password- 123  
 
 Organizer(CID 10):
-Wong Yew Wei
-123
+Username- Wong Yew Wei  
+Password- 123  
 
 Student With Club(CID 10):
-Loh Jun Kit
-123
+Username- Loh Jun Kit  
+Password- 123  
 
 Student Without Club:
-Lee Zi Jia
-123
+Username- Lee Zi Jia  
+Password- 123  
 
 Admin:
-Admin
-admin123
+Username- Admin  
+Password- admin123  
 
